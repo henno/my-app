@@ -2,7 +2,7 @@ name: With server
 on: [ push ]
 jobs:
   cypress-run:
-    runs-on: ubuntu-mantic
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
